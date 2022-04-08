@@ -1,0 +1,16 @@
+body{
+    background-color: lavenderblush;
+    font-size: large;
+}
+
+div {
+    height:12vh;
+    aspect-ratio: 1;
+    background-color: aquamarine;
+    color: palevioletred;
+
+}
+
+.container{
+    display:flex;
+}
