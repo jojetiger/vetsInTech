@@ -1,0 +1,59 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+.body{
+    background-color: burlywood;
+    display: flex;
+}
+
+.website_header{
+    display: flex;
+    width: 100;
+    height: 9vh;
+}
+
+.logo{
+    display: flex;
+    width: 15vw;
+    height: inherit;
+    background-color: aqua;
+}
+
+.banner{
+    display: flex;
+    width: 85vw;
+    height: inherit;
+    background-color: #009688;
+}
+
+nav {
+    display: flex;
+    margin: auto;
+    background-color: cornflowerblue;
+    width: 100%;
+    justify-content: flex-end;
+}
+
+nav > a {
+    margin: 1rem;
+}
+
+.main {
+    display: flex;
+    width: 95%;
+    min-height: 75vh;
+    background-color: #81d4fa;
+    justify-content: center;
+    border-radius: 5% 5% 5% 5%;
+    overflow: hidden;
+}
+
+.card{
+    width: 35%;
+    height: 20vh;
+    border: 1px solid black;
+    border-radius: 0%;
+    background-color: darkseagreen;
+}
