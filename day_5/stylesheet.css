@@ -1,0 +1,14 @@
+body{
+    background-color: aquamarine;
+    margin: 0; padding: 0; 
+    display: grid;
+    justify-content: center;
+    align-items: center;
+
+}
+.container{
+    display: flex;
+}
+#card{ height: 30rem; width: 35rem; background-color: darkblue;
+
+}
