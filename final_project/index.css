@@ -1,0 +1,56 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    padding: 1rem;
+    background: repeating-linear-gradient( 135deg, #00000029, #00000017 1px, #fff 2px, #fff 4px );
+}
+
+.content {
+    padding: 1rem;
+    height: 100%;
+    background-color: rgb(255, 181, 181);
+}
+
+.header {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 2rem;
+}
+
+.logo {
+    height: 13rem;
+    border-radius: 50%;
+}
+
+.header-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.stacked {
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.nav {
+    display: flex;
+    column-gap: .5rem;
+}
+
+.nav a {
+    font-family: 'Nanum Gothic Coding', monospace;
+    color: white;
+    font-size: 1.3rem;
+}
+
+.no-underline {
+    text-decoration: none;
+}
+
+.main {
+    background-color: blueviolet;
+}
