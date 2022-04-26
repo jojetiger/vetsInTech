@@ -24,6 +24,15 @@ body {
     border-radius: 50%;
 }
 
+.fa-instagram {
+    color: white
+}
+
+.fa-instagram:hover {
+    color: rgb(29, 171, 253);
+    transition: color ease-in-out 150ms
+}
+
 .header-section {
     display: flex;
     justify-content: center;
@@ -45,6 +54,11 @@ body {
     font-family: 'Nanum Gothic Coding', monospace;
     color: white;
     font-size: 1.3rem;
+}
+
+.nav a:hover {
+    color: rgb(29, 171, 253);
+    transition: color ease-in-out 150ms
 }
 
 .no-underline {
