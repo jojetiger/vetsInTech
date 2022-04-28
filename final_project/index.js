@@ -1,24 +1,21 @@
 
 const API_KEY = '30eb640baaf1753792330e166b8ddf4f'
 
-const seattleLatLog = {
-    name: 'Seattle',
-    class: 'seattle',
-    lat: '47.620422',
-    log: '-122.349358'
+const edward = {
+    class: 'edward',
+    lat: '47.732428',
+    log: '-122.251423'
 }
 
-const rattleSnakeLedge = {
-    name: 'rattle Snake Ledge',
-    class: 'rattleSnake',
-    lat: '47.4458',
-    log: '-121.7950',
+const fragnance = {
+    class: 'fragnance',
+    lat: '48.6534047',
+    log: '-122.4903177',
 }
-const wonju = {
-    name: 'Wonju',
-    class: 'wonju',
-    lat: '37.3422',
-    log: '127.9202'
+const poopoo = {
+    class: 'poopoo',
+    lat: '47.4999707',
+    log: '-122.0241684'
 }
 
 const addTextToElement = (targetElementClassName, textToAdd) => {
@@ -37,6 +34,8 @@ const getWeatherForLocation = (location) => {
     .catch(err => console.log('err', err))
 }
 
-getWeatherForLocation(seattleLatLog)
-getWeatherForLocation(rattleSnakeLedge)
-getWeatherForLocation(wonju)
+getWeatherForLocation(edward)
+getWeatherForLocation(fragnance)
+getWeatherForLocation(poopoo)
+
+
